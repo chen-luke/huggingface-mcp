@@ -45,3 +45,5 @@ coverage/
 *.tgz
 *.swp
 *.swo
+
+mcp-sentiment/venv
