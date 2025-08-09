@@ -1,0 +1,15 @@
+name: Ollama Qwen3 model
+version: 0.0.1
+schema: v1
+models:
+  - provider: ollama
+    model: gpt-oss:20b
+    format: tool-calls
+    defaultCompletionOptions:
+      contextLength: 8192
+    name: Ollama Qwen2 (Tools)
+    roles:
+      - chat
+      - edit
+      - apply
+      - autocomplete
